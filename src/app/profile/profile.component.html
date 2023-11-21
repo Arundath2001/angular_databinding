@@ -1,0 +1,15 @@
+<div class="profile">
+    <h2 [class]="color">My Profile</h2>
+    <!-- One way binding -->
+    <p [style.color]="'lightyellow'">Name: {{ name }}</p>
+    <p>Email: {{ email }}</p>
+    <p>Age : {{age}} </p>
+    <p>Branch : {{branch}} </p>
+    <p>PhoneNumber : {{PhoneNo}} </p>
+    <!-- Two way binding --><h4 [style.font-size]="'10px'">(Two Way Binding:)</h4>
+      <label for="editName">Edit Name:</label>
+      <input id="editName" [(ngModel)]="name" /> <br>
+      <label for="PhoneNo">Edit PhoneNumber:</label>
+      <input id="PhoneNo" [(ngModel)]="PhoneNo" />    
+  </div>
+  

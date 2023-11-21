@@ -1,0 +1,19 @@
+.changecolor{
+    color: wheat;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: linear-gradient(120deg , lightblue ,lightgreen);
+    margin: 30px;
+    border-radius: 20px;
+    input{
+        width: 200px;
+        border: 1px solid grey;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+}
